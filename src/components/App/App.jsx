@@ -17,7 +17,7 @@ export default function App() {
         options below.
       </p>
       <Options />
-      <Feedback />
+      <Feedback feedbackOptions={feedbackOptions} />
     </>
   );
 }

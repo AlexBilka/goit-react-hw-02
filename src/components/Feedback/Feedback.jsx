@@ -1,14 +1,13 @@
-export default function Feedback(
-  {
-    //   userData: {
-    //     username,
-    //     tag,
-    //     location,
-    //     avatar,
-    //     stats: { followers, views, likes },
-    //   },
-  }
-) {
+export default function Feedback() {
+// {
+//   userData: {
+//     username,
+//     tag,
+//     location,
+//     avatar,
+//     stats: { followers, views, likes },
+//   },
+// }
   //   return (
   //     <div>
   //       <div>
