@@ -1,14 +1,23 @@
-import Profile from '../Profile/Profile';
-import userData from '../../userData.json';
-
-import FriendList from '../FriendList/FriendList';
-import friendData from '../../friendData.json';
+import { useState } from 'react';
+import Feedback from '../Feedback/Feedback';
+import Options from '../Options/Options';
 
 export default function App() {
+  const feedbackOptions = useState({
+    good: 0,
+    neutral: 0,
+    bad: 0,
+  });
+
   return (
     <>
-      <Profile userData={userData} />
-      <FriendList friendData={friendData} />
+      <h1>Sip Happens Café</h1>
+      <p>
+        Please leave your feedback about our service by selecting one of the
+        options below.
+      </p>
+      <Options />
+      <Feedback />
     </>
   );
 }
